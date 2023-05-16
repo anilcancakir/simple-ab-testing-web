@@ -1,0 +1,13 @@
+/* Type your code here */
+
+body {
+    font-family: sans-serif;
+}
+
+[data-ab-variant] {
+    display: none;
+}
+
+[data-ab-tracking-dialog] {
+    display: none;
+}

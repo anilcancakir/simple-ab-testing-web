@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8"/>
+</head>
+
+<body>
+<!-- Feel free to modify markup -->
+
+<h1>Check out the Blinkist app</h1>
+
+<img alt="Check out the Blinkist app"
+     data-ab-variant="a"
+     src="images/hero_image.jpg"
+     width="300"
+/>
+
+<div data-ab-variant="a" data-ab-weight="2">
+    <!-- Control variation -->
+    Meet the app that revolutionized reading.
+</div>
+
+<div data-ab-variant="b">
+    Thanks a lot for reading the article! <a href="/signup">SIGN UP</a> for
+    Blinkist.
+</div>
+
+<div data-ab-variant="b">
+    <!-- Test variation -->
+    Meet the app that has 18 million users.
+</div>
+
+<div data-ab-variant="c">
+    <!-- Test 2nd variation -->
+    Blinkist offers the key insights from top nonfiction in a made-for-mobile format.
+</div>
+
+<div data-ab-variant="a,c">
+    Thanks a lot for reading the article! <a href="/signup">SIGN UP</a> for
+    Blinkist.
+</div>
+
+<div data-ab-tracking-dialog>
+    Can we track your events in browser?
+    <button data-ab-tracking-dialog-button-yes type="button">Yes</button>
+    <button data-ab-tracking-dialog-button-no type="button">No</button>
+</div>
+
+<script src="src/index.js"></script>
+</body>
+</html>

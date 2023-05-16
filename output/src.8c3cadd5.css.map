@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAEA,KACI,sBACJ,CAMA,4CACI,YACJ","file":"src.8c3cadd5.css","sourceRoot":"..","sourcesContent":["/* Type your code here */\n\nbody {\n    font-family: sans-serif;\n}\n\n[data-ab-variant] {\n    display: none;\n}\n\n[data-ab-tracking-dialog] {\n    display: none;\n}\n"]}
