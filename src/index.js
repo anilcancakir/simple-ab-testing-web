@@ -46,8 +46,6 @@ class AbTesting {
         // Try to get user selected variant key
         let selectedVariantKey = this.disk.getItem(this.DISK_KEY_SELECTED_VARIANT_KEY);
 
-        console.log('selectedVariantKey', selectedVariantKey);
-
         if (selectedVariantKey) {
             // If it has selected variant before, use this.
             this.selectedVariant = this.variants.find(v => v.key === selectedVariantKey);

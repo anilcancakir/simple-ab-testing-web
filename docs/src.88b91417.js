@@ -340,7 +340,7 @@ parcelRequire = function (e, r, t, n) {
             }, {
                 key: "initSelectedVariant", value: function () {
                     var t = this.disk.getItem(this.DISK_KEY_SELECTED_VARIANT_KEY);
-                    if (console.log("selectedVariantKey", t), t) this.selectedVariant = this.variants.find(function (e) {
+                    if (t) this.selectedVariant = this.variants.find(function (e) {
                         return e.key === t
                     }); else {
                         var e = this.variants.reduce(function (t, e, n) {
@@ -398,4 +398,4 @@ parcelRequire = function (e, r, t, n) {
         exports.default = g;
     }, {"./styles.css": "D9Nj", "./ab-testing-storage": "yRDH", "./analytics-api.js": "oQ6f"}]
 }, {}, ["H99C"], null)
-//# sourceMappingURL=https://anilcancakir.github.io/simple-ab-testing-web/src.296c2d44.js.map
+//# sourceMappingURL=https://anilcancakir.github.io/simple-ab-testing-web/src.88b91417.js.map
