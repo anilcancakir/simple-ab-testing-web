@@ -1,5 +1,7 @@
 # Simple A/B Testing Library for Javascript
 
+[https://anilcancakir.github.io/simple-ab-testing-web](https://anilcancakir.github.io/simple-ab-testing-web)
+
 ## How to install?
 
 ```shell

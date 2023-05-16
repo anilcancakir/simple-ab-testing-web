@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "build:production": "rm -r output/* && parcel build index.html --out-dir output"
+    "build:production": "rm -r docs/* && parcel build index.html --out-dir docs"
   },
   "dependencies": {},
   "devDependencies": {
