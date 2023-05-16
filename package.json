@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "build:production": "rm -r docs/* && parcel build index.html --out-dir docs"
+    "build:production": "rm -r docs/* && parcel build index.html --out-dir docs --public-url https://anilcancakir.github.io/simple-ab-testing-web"
   },
   "dependencies": {},
   "devDependencies": {
